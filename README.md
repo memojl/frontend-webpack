@@ -6,4 +6,4 @@ Curso de webpack
 2. Instalar [ npm i -D webpack webpack-cli ]
 3. Correr [ npx webpack app.js -o output.js ] o [ npx webpack --mode=production ./app.js -o output ]
 4. Instalar [ npm i html-webpack-plugin ]
-
+5. Instalar [ npm i webpack-dev-server ]
