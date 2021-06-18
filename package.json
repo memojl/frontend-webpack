@@ -2,18 +2,23 @@
   "name": "fontend-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/index.js",
   "scripts": {
-    "webpack": "npx webpack --mode=production ./app.js -o output",
-    "webpackdev": "npx webpack --mode=develoment ./app.js -o build",
-    "webpackpro": "npx webpack --mode=production ./app.js -o build"
-
+    "dev": "npx webpack server",
+    "webpackdev": "npx webpack --mode=development",
+    "webpackpro": "npx webpack --mode=production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.39.1",
-    "webpack-cli": "^4.7.2"
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   }
 }
