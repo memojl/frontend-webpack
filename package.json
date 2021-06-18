@@ -2,12 +2,10 @@
   "name": "fontend-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/index.js",
   "scripts": {
-    "webpack": "npx webpack --mode=production ./app.js -o output",
-    "webpackdev": "npx webpack --mode=develoment ./app.js -o build",
-    "webpackpro": "npx webpack --mode=production ./app.js -o build"
-
+    "webpackdev": "npx webpack --mode=develoment",
+    "webpackpro": "npx webpack --mode=production"
   },
   "keywords": [],
   "author": "",
